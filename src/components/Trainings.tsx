@@ -61,9 +61,27 @@ export const Trainings = () => {
                         Training <span className="text-primary">Guides</span>
                     </h2>
                     <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
-                    <p className="text-center text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-16">
-                        Access our free educational resources to enhance your
-                        knowledge and skills in various digital marketing areas.
+                    <p className="text-start text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-16">
+                        Learn with Us & Grow –{" "}
+                        <span className="custom-font text-secondary text-[1.3rem]">
+                            Brndng
+                            <span className="text-primary">.</span>
+                        </span>
+                        <br />
+                        <br />
+                        At{"  "}
+                        <span className="custom-font text-secondary text-[1.3rem]">
+                            Brndng
+                            <span className="text-primary">.</span>
+                        </span>
+                        , we believe that growth starts with knowledge. That’s
+                        why we’re more than just a web development and social
+                        media agency — we’re your partners in learning. Whether
+                        you’re launching your first business or scaling your
+                        brand online, we’re here to guide you with real-world
+                        insights, creative strategies, and practical tools. Join
+                        our community of ambitious entrepreneurs and creatives,
+                        and let’s grow together — smarter, stronger, and faster.
                     </p>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {trainings.map((training, index) => (
