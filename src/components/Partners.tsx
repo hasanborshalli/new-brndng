@@ -48,11 +48,6 @@ export const Partners = () => {
             website: "/pdf/مؤسسة اسرار التجارية.pdf",
         },
         {
-            name: "Annan Sports",
-            logo: "/annan.png",
-            website: "/pdf/Annan Sports.pdf",
-        },
-        {
             name: "Sleiman For Agriculture And Commerce",
             logo: "/sleiman.png",
             website: "https://saclb.com",
@@ -61,6 +56,16 @@ export const Partners = () => {
             name: "Oro Library",
             logo: "/oro.png",
             website: "https://orolibrary.com",
+        },
+        {
+            name: "Span World Travel Agency",
+            logo: "/span.png",
+            website: "",
+        },
+        {
+            name: "double m'tech",
+            logo: "/mtech.png",
+            website: "",
         },
     ];
     return (
