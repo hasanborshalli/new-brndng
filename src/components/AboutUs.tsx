@@ -58,12 +58,7 @@ export const AboutUs = () => {
                                 is where brands come to life. We’re a creative
                                 agency based in Lebanon, dedicated to building
                                 bold, authentic, and impactful brand identities
-                                that connect with people and drive real
-                                growth.Brndnglb is where brands come to life.
-                                We’re a creative agency based in Lebanon,
-                                dedicated to building bold, authentic, and
-                                impactful brand identities that connect with
-                                people and drive real growth.
+                                that connect with people and drive real growth.
                             </p>
                             <p className="text-gray-700 dark:text-gray-300 mb-6">
                                 At{" "}
