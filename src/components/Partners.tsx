@@ -79,9 +79,12 @@ export const Partners = () => {
                     </h2>
                     <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
                     <p className="text-center text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-16">
-                        We've had the privilege of working with amazing clients
-                        across various industries. Click on their logos to visit
-                        their websites.
+                        Trusted by a growing network of partners in success from
+                        diverse industries, we deliver impactful solutions
+                        through web development, branding, content creation, and
+                        social media management. Our clients count on us to
+                        bring their vision to life, strengthen their brand, and
+                        drive real results every step of the way.
                     </p>
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8">
                         {partners.map((partner, index) => (

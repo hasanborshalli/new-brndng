@@ -95,7 +95,8 @@ export const Services = () => {
                     </div>
                     <div className="mt-16 text-center">
                         <a
-                            href="#contact"
+                            target="_blank"
+                            href="https://wa.me/96176679623"
                             className="px-8 py-3 bg-primary text-white rounded-md hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl inline-block"
                         >
                             Get Started

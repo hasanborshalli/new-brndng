@@ -63,14 +63,14 @@ export const Trainings = () => {
                     <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
                     <p className="text-start text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-16">
                         Learn with Us & Grow –{" "}
-                        <span className="custom-font text-secondary text-[1.3rem]">
+                        <span className="custom-font  text-[1.3rem]">
                             Brndng
                             <span className="text-primary">.</span>
                         </span>
                         <br />
                         <br />
                         At{"  "}
-                        <span className="custom-font text-secondary text-[1.3rem]">
+                        <span className="custom-font  text-[1.3rem]">
                             Brndng
                             <span className="text-primary">.</span>
                         </span>
