@@ -33,19 +33,18 @@ export const Trainings = () => {
     }, []);
     const trainings = [
         {
-            title: "E-Book",
-            description:
-                "The essential guide to starting a business, creating a logo, and building a brand",
+            title: "The essential guide to starting a business, creating a logo, and building a brand",
+            description: "",
             downloadUrl:
                 "/pdf/The Essential Guide to Starting a Business, Creating a Logo, and Building a Brand by @brndng_lb .pdf.pdf",
             thumbnail: "/ebook.png",
         },
         {
-            title: "",
+            title: "Your ultimate guide to starting a successful e-commerce business, presented by Brndng.",
             description: "",
             downloadUrl:
                 "/pdf/دليلك الشامل لبدء مشروع تجارة إلكترونية ناجحًمقدم من brndng.pdf",
-            thumbnail: "/ebook.png",
+            thumbnail: "/ultimate.png",
         },
     ];
     return (
