@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 export const Partners = () => {
     const sectionRef = useRef<HTMLDivElement>(null);
     const [activePartner, setActivePartner] = useState<number | null>(null);
@@ -64,7 +64,7 @@ export const Partners = () => {
         },
         {
             name: "double m'tech",
-            logo: "/mtech.png",
+            logo: "/mtech.jpeg",
             website: "",
         },
     ];
