@@ -86,7 +86,7 @@ export const Footer = () => {
                         <ul className="space-y-2">
                             <li>
                                 <a
-                                    href="#services"
+                                    href="/#services"
                                     className="text-gray-400 hover:text-primary transition-colors"
                                 >
                                     Web Development
@@ -94,7 +94,7 @@ export const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#services"
+                                    href="/#services"
                                     className="text-gray-400 hover:text-primary transition-colors"
                                 >
                                     Social Media Management
@@ -102,7 +102,7 @@ export const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#services"
+                                    href="/#services"
                                     className="text-gray-400 hover:text-primary transition-colors"
                                 >
                                     Content Creation
@@ -110,7 +110,7 @@ export const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#services"
+                                    href="/#services"
                                     className="text-gray-400 hover:text-primary transition-colors"
                                 >
                                     Branding
