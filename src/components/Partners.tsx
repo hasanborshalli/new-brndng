@@ -1,7 +1,9 @@
 import { useEffect, useState, useRef } from "react";
+
 export const Partners = () => {
     const sectionRef = useRef<HTMLDivElement>(null);
     const [activePartner, setActivePartner] = useState<number | null>(null);
+
     useEffect(() => {
         const observer = new IntersectionObserver(
             (entries) => {
@@ -22,52 +24,57 @@ export const Partners = () => {
                 threshold: 0.1,
             }
         );
+
         if (sectionRef.current) {
             observer.observe(sectionRef.current);
         }
+
         return () => {
             if (sectionRef.current) {
                 observer.unobserve(sectionRef.current);
             }
         };
     }, []);
+
     const partners = [
         {
             name: "Lab Master",
             logo: "/labmaster.png",
-            website: "https://labmasterlb.com",
         },
         {
             name: "ABCC",
             logo: "/abcc.png",
-            website: "/pdf/ABCC.pdf",
         },
         {
             name: "Asrar",
             logo: "/asrar.png",
-            website: "/pdf/مؤسسة اسرار التجارية.pdf",
         },
         {
             name: "Sleiman For Agriculture And Commerce",
             logo: "/sleiman.png",
-            website: "https://saclb.com",
         },
         {
-            name: "Oro Library",
-            logo: "/oro.png",
-            website: "https://orolibrary.com",
+            name: "Hayek Gaming Ground",
+            logo: "/hayek.svg",
         },
         {
             name: "Span World Travel Agency",
             logo: "/span.png",
-            website: "",
         },
         {
             name: "double m'tech",
             logo: "/mtech.jpeg",
-            website: "",
+        },
+        {
+            name: "ToyLand",
+            logo: "/toyland logo.png",
+        },
+        {
+            name: "Ink and Blood",
+            logo: "/inkandblood.jpeg",
         },
     ];
+
     return (
         <section
             id="partners"
@@ -93,25 +100,22 @@ export const Partners = () => {
                     </p>
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8">
                         {partners.map((partner, index) => (
-                            <a
+                            <div
                                 key={index}
-                                href={partner.website}
-                                target="_blank"
-                                rel="noopener noreferrer"
                                 className="group"
                                 onMouseEnter={() => setActivePartner(index)}
                                 onMouseLeave={() => setActivePartner(null)}
                             >
                                 <div
                                     className={`
-                  bg-white dark:bg-gray-900 rounded-lg p-6 flex items-center justify-center h-32
-                  transition-all duration-300
-                  ${
-                      activePartner === index
-                          ? "shadow-xl scale-105"
-                          : "shadow-md hover:shadow-lg"
-                  }
-                `}
+                    bg-white rounded-lg p-6 flex items-center justify-center h-32
+                    transition-all duration-300
+                    ${
+                        activePartner === index
+                            ? "shadow-xl scale-105"
+                            : "shadow-md hover:shadow-lg"
+                    }
+                  `}
                                 >
                                     <img
                                         src={partner.logo}
@@ -121,14 +125,14 @@ export const Partners = () => {
                                 </div>
                                 <p
                                     className={`
-                  text-center mt-2 text-sm text-gray-600 dark:text-gray-400
-                  transition-all duration-300
-                  ${activePartner === index ? "text-primary" : ""}
-                `}
+                    text-center mt-2 text-sm text-gray-600 dark:text-gray-400
+                    transition-all duration-300
+                    ${activePartner === index ? "text-primary" : ""}
+                  `}
                                 >
                                     {partner.name}
                                 </p>
-                            </a>
+                            </div>
                         ))}
                     </div>
                 </div>

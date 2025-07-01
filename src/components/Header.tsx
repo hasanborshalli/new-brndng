@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { SunIcon, MoonIcon, MenuIcon, XIcon } from "lucide-react";
+import { Link } from "react-router-dom";
 interface HeaderProps {
     theme: string;
     toggleTheme: () => void;
@@ -17,23 +18,27 @@ export const Header = ({ theme, toggleTheme }: HeaderProps) => {
     const navLinks = [
         {
             name: "About",
-            href: "#about",
+            href: "/#about",
+        },
+        {
+            name: "Projects",
+            href: "/projects",
         },
         {
             name: "Services",
-            href: "#services",
+            href: "/#services",
         },
         {
             name: "Partners",
-            href: "#partners",
+            href: "/#partners",
         },
         {
             name: "Trainings",
-            href: "#trainings",
+            href: "/#trainings",
         },
         {
             name: "Contact",
-            href: "#contact",
+            href: "/#contact",
         },
     ];
     return (
@@ -57,6 +62,12 @@ export const Header = ({ theme, toggleTheme }: HeaderProps) => {
                 </a>
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex items-center space-x-8">
+                    {/* <Link
+                        to="/projects"
+                        className="text-gray-700 dark:text-gray-200 hover:text-primary transition"
+                    >
+                        Projects
+                    </Link> */}
                     {navLinks.map((link) => (
                         <a
                             key={link.name}

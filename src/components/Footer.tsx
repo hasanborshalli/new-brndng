@@ -25,7 +25,7 @@ export const Footer = () => {
                         <ul className="space-y-2">
                             <li>
                                 <a
-                                    href="#"
+                                    href="/"
                                     className="text-gray-400 hover:text-primary transition-colors"
                                 >
                                     Home
@@ -33,7 +33,15 @@ export const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#about"
+                                    href="/projects"
+                                    className="text-gray-400 hover:text-primary transition-colors"
+                                >
+                                    Projects
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="/#about"
                                     className="text-gray-400 hover:text-primary transition-colors"
                                 >
                                     About Us
@@ -41,7 +49,7 @@ export const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#services"
+                                    href="/#services"
                                     className="text-gray-400 hover:text-primary transition-colors"
                                 >
                                     Services
@@ -49,7 +57,7 @@ export const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#partners"
+                                    href="/#partners"
                                     className="text-gray-400 hover:text-primary transition-colors"
                                 >
                                     Partners
@@ -57,7 +65,7 @@ export const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#trainings"
+                                    href="/#trainings"
                                     className="text-gray-400 hover:text-primary transition-colors"
                                 >
                                     Trainings
@@ -65,7 +73,7 @@ export const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#contact"
+                                    href="/#contact"
                                     className="text-gray-400 hover:text-primary transition-colors"
                                 >
                                     Contact
