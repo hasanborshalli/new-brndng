@@ -10,6 +10,22 @@ type Project = {
 
 const webProjects: Project[] = [
     {
+        title: "Hayek Gaming Ground E-commerce Website",
+        description:
+            "A dynamic and engaging website built for Hayek Gaming, a hub for gaming enthusiasts and esports fans. The platform features comprehensive product listings including gaming headsets, keyboards, mice, monitors, and gaming accessories, presented with sleek design and intuitive navigation. Designed to enhance user experience, the site supports seamless browsing and quick access to gaming packages and setups, catering to both casual gamers and professionals. With a focus on modern aesthetics and performance, Hayek Gaming’s online presence effectively connects gamers with top-quality gear and curated packages.",
+        logo: "/hayek.svg",
+        image: "/hayekweb.png",
+        link: "https://hayekgaming.com",
+    },
+    {
+        title: "Abo Saleh Real Estate",
+        description:
+            "A professional real estate website built for Abo Saleh Real Estate, showcasing properties for sale and rent across various locations. The platform offers an elegant, user-friendly interface with advanced property filtering, detailed listings, and an integrated contact system to streamline inquiries. Designed to attract serious buyers and tenants, the website emphasizes modern design, responsiveness, and efficient navigation—making it a valuable tool for property seekers and real estate agents alike.",
+        logo: "/abosaleh.png",
+        image: "/abousalehweb.png",
+        link: "https://abousaleh.me",
+    },
+    {
         title: "Lab Master Portfolio Website",
         description:
             "A modern and responsive website developed for Lab Master, a premier supplier of laboratory equipment and medical consumables in Lebanon. The site presents their full catalog of products across various scientific categories, making it easy for visitors to explore offerings and request quotations. Built with a user-first approach, the website combines clean UI design with smooth navigation and fast performance. It reinforces Lab Master's leadership in the medical and scientific supply industry, offering a clear and credible online presence for both local and international clients.",
@@ -25,14 +41,7 @@ const webProjects: Project[] = [
         image: "/saclb.png",
         link: "https://saclb.com",
     },
-    {
-        title: "Hayek Gaming Ground E-commerce Website",
-        description:
-            "A dynamic and engaging website built for Hayek Gaming, a hub for gaming enthusiasts and esports fans. The platform features comprehensive product listings including gaming headsets, keyboards, mice, monitors, and gaming accessories, presented with sleek design and intuitive navigation. Designed to enhance user experience, the site supports seamless browsing and quick access to gaming packages and setups, catering to both casual gamers and professionals. With a focus on modern aesthetics and performance, Hayek Gaming’s online presence effectively connects gamers with top-quality gear and curated packages.",
-        logo: "/hayek.svg",
-        image: "/hayekweb.png",
-        link: "https://hayekgaming.com",
-    },
+
     {
         title: "One-page Website for ink and blood community",
         description:

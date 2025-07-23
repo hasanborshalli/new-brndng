@@ -73,6 +73,14 @@ export const Partners = () => {
             name: "Ink and Blood",
             logo: "/inkandblood.jpeg",
         },
+        {
+            name: "Abo Saleh Real Estate",
+            logo: "/abosaleh.png",
+        },
+        {
+            name: "Faces Clinic By Rayan",
+            logo: "/clinicrayan.jpeg",
+        },
     ];
 
     return (
