@@ -1,8 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 export function TermsAndConditions() {
-    const navigate = useNavigate();
-
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 px-6 py-10 flex flex-col items-center">
             <div className="w-full max-w-3xl bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8">
