@@ -118,7 +118,7 @@ export const Contact = () => {
                                     </a>
                                     <a
                                         target="_blank"
-                                        href="https://www.instagram.com/brndng_lb/"
+                                        href="https://www.instagram.com/brndng.media?igsh=a3ppOG5wYXZ2ZjN2"
                                         className="bg-gray-100 dark:bg-gray-700 p-2 rounded-full hover:bg-primary hover:text-white transition-colors"
                                     >
                                         <svg

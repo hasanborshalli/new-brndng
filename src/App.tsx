@@ -9,6 +9,9 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Projects } from "./components/Projects"; // <- import it
 import { useEffect, useState } from "react";
+import { GamePage } from "./components/GamePage";
+import { RegisterPage } from "./components/RegisterPage";
+import { TermsAndConditions } from "./components/TermsAndConditions";
 
 export function App() {
     const [theme, setTheme] = useState("light");
@@ -43,6 +46,12 @@ export function App() {
                         }
                     />
                     <Route path="/projects" element={<Projects />} />
+                    <Route path="/startGame" element={<RegisterPage />} />
+                    <Route path="/game" element={<GamePage />} />
+                    <Route
+                        path="/termsandconditions"
+                        element={<TermsAndConditions />}
+                    />
                 </Routes>
                 <Footer />
             </div>

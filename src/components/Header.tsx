@@ -62,12 +62,6 @@ export const Header = ({ theme, toggleTheme }: HeaderProps) => {
                 </a>
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex items-center space-x-8">
-                    {/* <Link
-                        to="/projects"
-                        className="text-gray-700 dark:text-gray-200 hover:text-primary transition"
-                    >
-                        Projects
-                    </Link> */}
                     {navLinks.map((link) => (
                         <a
                             key={link.name}
