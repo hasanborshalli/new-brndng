@@ -26,6 +26,15 @@ const webProjects: Project[] = [
         link: "https://abousaleh.me",
     },
     {
+        title: "Indulgia",
+        description:
+            "A premium chocolate brand website created for Indulgia, showcasing handcrafted artisanal chocolates made with pure ingredients and refined design. The platform features an elegant, responsive interface with smooth animations, immersive visuals, and a modern user experience that reflects the brand’s essence of luxury and indulgence. The website blends aesthetics and performance to deliver a delightful browsing experience for chocolate lovers.",
+        logo: "/indulgia.png",
+        image: "/indulgiaweb.png",
+        link: "https://indulgia-lb.com",
+    },
+
+    {
         title: "Lab Master Portfolio Website",
         description:
             "A modern and responsive website developed for Lab Master, a premier supplier of laboratory equipment and medical consumables in Lebanon. The site presents their full catalog of products across various scientific categories, making it easy for visitors to explore offerings and request quotations. Built with a user-first approach, the website combines clean UI design with smooth navigation and fast performance. It reinforces Lab Master's leadership in the medical and scientific supply industry, offering a clear and credible online presence for both local and international clients.",
@@ -68,6 +77,14 @@ const socialMediaProjects: Project[] = [
         logo: "/span.png",
         image: "/span_image.png",
         link: "https://www.instagram.com/span_world_travel?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    },
+    {
+        title: "HasanDoesMagic",
+        description:
+            "A creative social media presence built for Hasan Does Magic, a talented Lebanese card magician known for his captivating sleight-of-hand and engaging performances. The content strategy focused on showcasing mesmerizing tricks, behind-the-scenes moments, and interactive reels to highlight his skill, personality, and connection with the audience. Designed with a modern and mysterious aesthetic, the visuals and storytelling enhance his brand identity and bring the art of magic to life online.",
+        logo: "/hasandoesmagic.jpg",
+        image: "/hasandoesmagicInsta.png",
+        link: "https://www.instagram.com/hasandoesmagic/",
     },
     {
         title: "double m'tech",

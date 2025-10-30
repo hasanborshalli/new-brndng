@@ -81,6 +81,14 @@ export const Partners = () => {
             name: "Faces Clinic By Rayan",
             logo: "/clinicrayan.jpeg",
         },
+        {
+            name: "Indulgia",
+            logo: "/indulgia.png",
+        },
+        {
+            name: "HasanDoesMagic",
+            logo: "/hasandoesmagic.jpg",
+        },
     ];
 
     return (
