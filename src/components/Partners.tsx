@@ -89,6 +89,10 @@ export const Partners = () => {
             name: "HasanDoesMagic",
             logo: "/hasandoesmagic.jpg",
         },
+        {
+            name: "Zeinab Abdallah Photography",
+            logo: "/zeinab abdallah.jpeg",
+        },
     ];
 
     return (
