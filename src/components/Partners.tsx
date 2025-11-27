@@ -38,24 +38,38 @@ export const Partners = () => {
 
     const partners = [
         {
+            name: "Hayek Gaming Ground",
+            logo: "/hayek.svg",
+        },
+        {
+            name: "Trendy4Less",
+            logo: "/trendy4less-logo.jpg",
+        },
+        {
             name: "Lab Master",
             logo: "/labmaster.png",
         },
-        {
-            name: "ABCC",
-            logo: "/abcc.png",
-        },
-        {
-            name: "Asrar",
-            logo: "/asrar.png",
-        },
+
         {
             name: "Sleiman For Agriculture And Commerce",
             logo: "/sleiman.png",
         },
         {
-            name: "Hayek Gaming Ground",
-            logo: "/hayek.svg",
+            name: "Indulgia",
+            logo: "/indulgia.png",
+        },
+        {
+            name: "Abo Saleh Real Estate",
+            logo: "/abosaleh.png",
+        },
+        {
+            name: "Faces Clinic By Rayan",
+            logo: "/clinicrayan.jpeg",
+        },
+
+        {
+            name: "HasanDoesMagic",
+            logo: "/hasandoesmagic.jpg",
         },
         {
             name: "Span World Travel Agency",
@@ -73,21 +87,14 @@ export const Partners = () => {
             name: "Ink and Blood",
             logo: "/inkandblood.jpeg",
         },
+
         {
-            name: "Abo Saleh Real Estate",
-            logo: "/abosaleh.png",
+            name: "ABCC",
+            logo: "/abcc.png",
         },
         {
-            name: "Faces Clinic By Rayan",
-            logo: "/clinicrayan.jpeg",
-        },
-        {
-            name: "Indulgia",
-            logo: "/indulgia.png",
-        },
-        {
-            name: "HasanDoesMagic",
-            logo: "/hasandoesmagic.jpg",
+            name: "Asrar",
+            logo: "/asrar.png",
         },
         {
             name: "Zeinab Abdallah Photography",

@@ -1,5 +1,3 @@
-import React from "react";
-
 type Project = {
     title: string;
     description: string;
@@ -16,6 +14,14 @@ const webProjects: Project[] = [
         logo: "/hayek.svg",
         image: "/hayekweb.png",
         link: "https://hayekgaming.com",
+    },
+    {
+        title: "Trendy4less E-commerce Website",
+        description:
+            "A modern online store built for Trendy4Less, offering a curated selection of trendy, budget-friendly products with delivery all over Lebanon. The platform features category-based browsing, powerful search and filtering, and a smooth add-to-cart and checkout experience. Designed with a clean, responsive UI and subtle animations, it makes shopping simple on both mobile and desktop. Trendy4Less focuses on accessibility, performance, and a user-first experience, helping shoppers quickly find stylish products at affordable prices.",
+        logo: "/trendy4less-logo.jpg",
+        image: "/trendy4lessweb.png",
+        link: "https://trendy4less.shop",
     },
     {
         title: "Abo Saleh Real Estate",
