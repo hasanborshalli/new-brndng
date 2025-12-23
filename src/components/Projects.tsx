@@ -1,3 +1,4 @@
+import Snowfall from "react-snowfall";
 type Project = {
     title: string;
     description: string;
@@ -175,6 +176,7 @@ const Section = ({
 export const Projects = () => {
     return (
         <main className="py-20 px-4 md:px-10 bg-gray-50 dark:bg-gray-900 min-h-screen">
+            <Snowfall color="#82c3d9" />
             <div className="max-w-7xl mx-auto">
                 <h1 className="text-4xl font-bold text-center text-secondary dark:text-white mb-16">
                     Our <span className="text-primary">Projects</span>

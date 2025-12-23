@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import "./styles.css";
+import Snowfall from "react-snowfall";
 export const Hero = () => {
     const textRef = useRef<HTMLDivElement>(null);
     useEffect(() => {
@@ -33,6 +34,7 @@ export const Hero = () => {
     }, []);
     return (
         <section className="relative w-full bg-white dark:bg-gray-900 min-h-screen flex items-center">
+            <Snowfall color="#82c3d9" />
             <div className="absolute inset-0 overflow-hidden">
                 <div className="absolute -right-5 -top-5 w-72 h-72 bg-primary rounded-full blur-[100px] opacity-30"></div>
                 <div className="absolute -left-10 bottom-20 w-80 h-80 bg-primary rounded-full blur-[120px] opacity-20"></div>
